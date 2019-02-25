@@ -4,7 +4,7 @@ int main() {
 	srand(time(NULL));
 	int n, m, j = 0;
 	m = rand() % 100;
-	std::cout << "Enter a number that i guessed= ";
+	std::cout << "Enter a 2 digit number that i guessed= ";
 	std::cin >> n;
 	while (n != m) {
 		if (n > m) {
